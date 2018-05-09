@@ -5,25 +5,20 @@
  */
 package com.Conexion;
 import java.sql.*;
-import java.sql.Connection;
-import java.sql.DriverManager;
-
 /**
  *
  * @author ycarmona
  */
 public class Conexion {
-     
+     //Connection conectar = null;
     
-    public static Connection conectar(){
-        Connection conec = null;
-        try{
-            Class.forName("com.sqlserver.jdbc.Driver");
-           // conec = DriverManager.getConnection("jdbc:sqlserver://localhost:1433","r","");
-            conec = DriverManager.getConnection("jdbc:sqlserver://localhost:1433//ComprasOnline","ycarmona","");
-        }catch (ClassNotFoundException | SQLException e){
-            System.out.println("Error al conectar: "+e.getMessage());
-        }
-        return conec;
-    }
+    //public Connection conectar(){
+      //  try{
+        //    Class.forName("com.sqlserver.jdbc.Driver");
+        //    conectar = DriverManager.getConnection("jdbc:sqlserver://localhost:1433","r","");
+        //}catch (ClassNotFoundException | SQLException e){
+         //   System.out.println("Error al conectar: "+e.getMessage());
+    //    }
+       // return conectar;
+   // }
 }
