@@ -9,7 +9,7 @@ package com.Clases;
  *
  * @author ycarmona
  */
-public class Cliente extends Compra{
+public class Cliente {
     private int id_cliente;
     private String nombre;
     private String telefono;
